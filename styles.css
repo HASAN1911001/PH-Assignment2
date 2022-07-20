@@ -7,11 +7,16 @@ body{
     visibility: hidden;
 }
 
+
+
 /*----------------------------------------------
 
      CSS styles for laptop view
 
 ---------------------------------------------*/
+
+
+
 
 @media screen and (min-width: 835px)
 {
@@ -24,7 +29,6 @@ body{
         margin: 30px 100px;
         padding: 0 30px;
         height: 650px;
-        width: 100%;
     }
     .button{
         text-decoration: none;
@@ -69,7 +73,7 @@ body{
         text-align: center;
         margin: 20px;
     }
-    #nav3{
+    #nav{
         text-decoration: none;
         background-color: #DD0000;
         padding: 10px 20px;
@@ -161,6 +165,8 @@ body{
 
 ---------------------------------------------*/
 
+
+
 @media screen and (min-width: 375px) and (max-width: 834px){
     header{
         display: flex;
@@ -171,7 +177,6 @@ body{
         margin: 20px 30px;
         padding: 0 30px;
         height: 500px;
-        width: 100%;
     }
     .button{
         text-decoration: none;
@@ -240,7 +245,7 @@ body{
     #news div{
         margin: 20px;
     }
-    #nav3{
+    #nav{
         text-decoration: none;
         background-color: #DD0000;
         padding: 10px 20px;
@@ -268,8 +273,6 @@ body{
     #matches{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-
-    margin-left: 280px;
     }
     .match{
         border-radius: 10px;
@@ -284,6 +287,8 @@ body{
     #text{
         text-align: center;
     }
+
+
 
     footer{
         box-sizing: border-box;
@@ -324,7 +329,6 @@ body{
         margin: 10px;
         padding: 10px 30px;
         height: 700px;
-        width: 100%;
     }
     .button{
         text-decoration: none;
@@ -369,7 +373,7 @@ body{
         width: 100px;
         margin-bottom: 10px;
     }
-    #nav3{
+    #nav{
         text-decoration: none;
         background-color: #DD0000;
         padding: 10px 20px;
@@ -377,7 +381,7 @@ body{
         border-radius: 5px;
         font-weight: 700px;
     }
-    .blog{
+    .blog .matches{
         border-radius: 10px;
         border: 1px solid rgb(235, 224, 224);
     }
