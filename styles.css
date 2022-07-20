@@ -1,10 +1,17 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hidden{
     visibility: hidden;
 }
+
+/*----------------------------------------------
+
+     CSS styles for laptop view
+
+---------------------------------------------*/
 
 @media screen and (min-width: 835px)
 {
@@ -17,6 +24,7 @@ body{
         margin: 30px 100px;
         padding: 0 30px;
         height: 650px;
+        width: 100%;
     }
     .button{
         text-decoration: none;
@@ -111,15 +119,23 @@ body{
         color: white;
         margin: 20px; 
     }
+    #social-media{
+        margin-top: 20px;
+        }
+    #social-media a{
+        text-decoration: none;
+        margin: 10px; 
+
+    }
 }
 
 
 
 /*----------------------------------------------
 
+     CSS styles for Tablet view
 
-
-----------------------------------------------*/
+---------------------------------------------*/
 
 @media screen and (min-width: 375px) and (max-width: 834px){
     header{
@@ -131,6 +147,7 @@ body{
         margin: 20px 30px;
         padding: 0 30px;
         height: 500px;
+        width: 100%;
     }
     .button{
         text-decoration: none;
@@ -225,7 +242,7 @@ body{
         background-color: black;
         color: white;
         text-align: center;
-        height: 300px;
+        height: 400px;
         padding: 100px;
     }
     .footer{
@@ -233,12 +250,22 @@ body{
         color: white;
         margin: 20px; 
     }
+    #social-media{
+        margin-top: 20px;
+     }
+    #social-media a{
+        text-decoration: none;
+        margin: 10px; 
+
+    }
+    
 }
 
-/*---------------------------
+/*----------------------------------------------
 
+     CSS styles for movile view
 
------------------------------*/
+---------------------------------------------*/
 
 @media screen and (max-width: 375px){
     header{
@@ -249,6 +276,7 @@ body{
         margin: 10px;
         padding: 10px 30px;
         height: 700px;
+        width: 100%;
     }
     .button{
         text-decoration: none;
@@ -328,7 +356,7 @@ body{
         background-color: black;
         color: white;
         text-align: center;
-        height: 500px;
+        height: 600px;
         padding: 100px;
     }
     .footer{
@@ -337,5 +365,13 @@ body{
         text-decoration: none;
         color: white;
         margin: 20px; 
+    }
+    #social-media{
+        margin-top: 20px;
+     }
+    #social-media a{
+        text-decoration: none;
+        margin: 10px; 
+
     }
 }
