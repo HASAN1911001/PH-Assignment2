@@ -114,9 +114,9 @@ header:hover p {
     #news div{
         margin: 20px;
     }
-/*-------------
-    CSS styles for match webpage
- --------------*/
+    /*-------------
+        CSS styles for match webpage
+    --------------*/
     #matches{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -136,6 +136,7 @@ header:hover p {
     #text{
         text-align: center;
     }
+    /*--------------------------------------------*/
 
         
 
@@ -274,9 +275,9 @@ header:hover p {
         font-weight: 700px;
     }
 
-/*-------------------------------
+    /*-------------------------------
     CSS styles for match webpage
- --------------------------------*/
+    --------------------------------*/
     #matches{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -294,7 +295,7 @@ header:hover p {
     #text{
         text-align: center;
     }
-
+    /*--------------------------------------------*/
 
 
     footer{
@@ -320,8 +321,6 @@ header:hover p {
     }
     
 }
-
-
 
 
 
@@ -392,10 +391,12 @@ header:hover p {
         border-radius: 5px;
         font-weight: 700px;
     }
-    .blog .matches{
+
+    .blog{
         border-radius: 10px;
         border: 1px solid rgb(235, 224, 224);
     }
+
     span{
         margin-left: 10px;
         margin-right: 20px; 
@@ -413,6 +414,29 @@ header:hover p {
     #news div{
         margin: 20px;
     }
+
+    /*-------------------------------
+    CSS styles for match webpage
+    --------------------------------*/
+    .match{
+        border-radius: 10px;
+        border: 1px solid rgb(235, 224, 224);
+        margin: 20px; 
+    }
+    #image{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px; 
+    }
+    #text{
+        text-align: center;
+    }
+    .matches{
+        border-radius: 10px;
+        border: 1px solid rgb(235, 224, 224);
+    }
+    /*--------------------------------------------*/
+
 
     footer{
         box-sizing: border-box; 
