@@ -2,6 +2,10 @@ body{
     margin: 0;
 }
 
+.hidden{
+    visibility: hidden;
+}
+
 @media screen and (min-width: 835px)
 {
     header{
@@ -95,16 +99,243 @@ body{
     }
 
     footer{
+        box-sizing: border-box; 
         background-color: black;
         color: white;
         text-align: center;
         height: 300px;
-        padding: 50px;
+        padding: 200px;
     }
     .footer{
         text-decoration: none;
         color: white;
         margin: 20px; 
-}
+    }
 }
 
+
+
+/*----------------------------------------------
+
+
+
+----------------------------------------------*/
+
+@media screen and (min-width: 375px) and (max-width: 834px){
+    header{
+        display: flex;
+        align-items: center;
+        color: white;
+        background-color: #161616;
+        border-radius: 20px;
+        margin: 20px 30px;
+        padding: 0 30px;
+        height: 500px;
+    }
+    .button{
+        text-decoration: none;
+        background-color: #DD0000;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 5px;
+        font-weight: 700px;
+    }
+    header div h1{
+        font-size: 50px;
+    }
+    #Marcello{
+        width: 100%;
+        height: 450px;
+        margin-top: 55px;
+
+    }
+    #navigation{
+        display:flex;
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+    nav{
+        display: flex; 
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    .nav{
+        text-decoration: none;
+        border: 1px solid black;
+        background-color: white;
+        padding: 10px 20px;
+        color: black;
+        border-radius: 5px;
+        font-weight: 700px;
+        text-align: center;
+        height: 40p;
+        margin-left: 60px;
+        width: 100px;
+    }
+    
+    #news{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
+    }
+
+    .blog{
+        border-radius: 10px;
+        border: 1px solid rgb(235, 224, 224);
+    }
+    span{
+        margin-left: 10px;
+        margin-right: 20px; 
+    }
+    .transfer{
+        text-decoration: none;
+        background-color: white;
+        padding: 5px 20px;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-weight: 700px;
+    }
+    #news div{
+        margin: 20px;
+    }
+    #nav3{
+        text-decoration: none;
+        background-color: #DD0000;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 5px;
+        font-weight: 700px;
+    }
+    .hidden{
+        visibility: visible;
+        margin: 30px;
+        text-align: center;;
+    }
+    #hidden{
+        text-decoration: none;
+        background-color: #DD0000;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 5px;
+        font-weight: 700px;
+    }
+    footer{
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 300px;
+        padding: 100px;
+    }
+    .footer{
+        text-decoration: none;
+        color: white;
+        margin: 20px; 
+    }
+}
+
+/*---------------------------
+
+
+-----------------------------*/
+
+@media screen and (max-width: 375px){
+    header{
+        align-items: center;
+        color: white;
+        background-color: #161616;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 10px 30px;
+        height: 700px;
+    }
+    .button{
+        text-decoration: none;
+        background-color: #DD0000;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 5px;
+        font-weight: 700px;
+    }
+    header div h1{
+        font-size: 35px;
+    }
+    #Marcello{
+        width: 100%;
+        height: 450px;
+        margin-top: 62px;
+
+    }
+    #navigation{
+        display:flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex; 
+        flex-direction: column;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+    .nav{
+        text-decoration: none;
+        border: 1px solid black;
+        background-color: white;
+        padding: 10px 20px;
+        color: black;
+        border-radius: 5px;
+        font-weight: 700px;
+        margin-left: 60px;
+        text-align: center;
+        height: 40p;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    #nav3{
+        text-decoration: none;
+        background-color: #DD0000;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 5px;
+        font-weight: 700px;
+    }
+    .blog{
+        border-radius: 10px;
+        border: 1px solid rgb(235, 224, 224);
+    }
+    span{
+        margin-left: 10px;
+        margin-right: 20px; 
+    }
+    
+    .transfer{
+        text-decoration: none;
+        background-color: white;
+        padding: 5px 20px;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-weight: 700px;
+    }
+    #news div{
+        margin: 20px;
+    }
+
+    footer{
+        box-sizing: border-box; 
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 500px;
+        padding: 100px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: white;
+        margin: 20px; 
+    }
+}
