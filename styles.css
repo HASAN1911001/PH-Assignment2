@@ -326,7 +326,7 @@ header:hover p {
 
 /*----------------------------------------------
 
-     CSS styles for movile view
+     CSS styles for mobile view
 
 ---------------------------------------------*/
 
@@ -395,6 +395,7 @@ header:hover p {
     .blog{
         border-radius: 10px;
         border: 1px solid rgb(235, 224, 224);
+        margin: 10px;
     }
 
     span{
@@ -420,8 +421,8 @@ header:hover p {
     --------------------------------*/
     .match{
         border-radius: 10px;
-        border: 1px solid rgb(235, 224, 224);
-        margin: 20px; 
+        border: 1px solid rgb(235, 224, 224); 
+        margin: 10px;
     }
     #image{
         display: flex;
@@ -430,10 +431,6 @@ header:hover p {
     }
     #text{
         text-align: center;
-    }
-    .matches{
-        border-radius: 10px;
-        border: 1px solid rgb(235, 224, 224);
     }
     /*--------------------------------------------*/
 
